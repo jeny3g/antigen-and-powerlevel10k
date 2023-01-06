@@ -2,6 +2,8 @@
 
 This repository contains code for setting up Antigen and Powerlevel10k for configuring a custom terminal in macOS.
 
+https://user-images.githubusercontent.com/31122067/210921216-5b82747f-f797-4595-abd5-07b3ca4f2f5e.mov
+
 ## What is Antigen?
 
 Antigen is a small set of functions that help you easily manage your shell (zsh) configuration. It provides a set of defaults, such as adding the `~/.zshrc` file to your shell, along with some helpful functions. It also allows you to easily extend your configuration with plugins from a variety of sources.
