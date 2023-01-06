@@ -10,42 +10,32 @@ Antigen is a small set of functions that help you easily manage your shell (zsh)
 
 Powerlevel10k is a theme for the ZSH shell that provides a powerful and aesthetically pleasing experience. It comes with a set of customizable options that allow you to customize the look of your terminal.
 
+## Prerequisites
+
+[zsh](https://www.zsh.org) must be installed on your system.
+
+
 ## Installation
 
-1. Clone this repository:
-
-```
-git clone https://github.com/jeny3g/antigen-and-powerlevel10k.git
-```
-
-2. Install Antigen:
+1. [Install Antigen](curl -L git.io/antigen > antigen.zsh):
 
 ```
 curl -L git.io/antigen > antigen.zsh
 ```
 
-3. Add the following to your `~/.zshrc` file:
+2. Add [this configuration](https://github.com/jeny3g/antigen-and-powerlevel10k/blob/main/.zshrc) to your `~/.zshrc` file:
 
-```
-source ~/antigen.zsh
+3. Add [this configuration](https://github.com/jeny3g/antigen-and-powerlevel10k/blob/main/.antigenrc) to your `~/.antigenrc` file:
 
-# Load the antigen configuration
-antigen bundle jeny3g/antigen-and-powerlevel10k
+4. [Install the recommended font](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k)
 
-# Load the Powerlevel10k theme
-source ~/powerlevel10k/powerlevel10k.zsh-theme
-```
+5. Reload your shell and have fun 😁
 
-4. Reload your shell:
-
-```
-source ~/.zshrc
-```
 
 ## Usage
 
-Once installed, you can customize your terminal by editing the `~/.p10k.zsh` file.
+Once installed and configured, you can easily configure again antigen by pressing `p10k configure` in your terminal 
 
-## License
 
-This repository is released under the MIT License. See the [LICENSE](LICENSE) file for more information.
+Made with ❤️ by jeny3g
+
