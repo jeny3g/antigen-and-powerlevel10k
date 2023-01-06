@@ -19,7 +19,7 @@ Powerlevel10k is a theme for the ZSH shell that provides a powerful and aestheti
 
 ## Installation
 
-1. [Install Antigen](curl -L git.io/antigen > antigen.zsh):
+1. Install Antigen
 
 ```
 curl -L git.io/antigen > antigen.zsh
