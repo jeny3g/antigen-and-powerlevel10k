@@ -39,5 +39,5 @@ curl -L git.io/antigen > antigen.zsh
 Once installed and configured, you can easily configure again antigen by pressing `p10k configure` in your terminal 
 
 
-Made with ❤️ by jeny3g
+Made with ❤️ by [jeny3g](https://github.com/jeny3g)
 
